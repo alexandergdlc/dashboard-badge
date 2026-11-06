@@ -68,32 +68,7 @@ import { Badge } from '@/components/ui/lab-badge';
 
 El Badge original de TailAdmin tiene otro contrato y se conserva para sus páginas; el del desafío se importa desde lab-badge. Las props de esta versión exigen exactamente las tres variantes solicitadas. El componente no guarda variant en su estado interno; los botones del padre lo actualizan. Los datos externos necesitarían validación antes de usarse.
 
-## GitHub
 
-No se ha publicado esta adaptación en tu cuenta. Puedes ejecutar y capturar desde el ZIP antes de crear el repositorio.
-
-Crear en https://github.com/new un repositorio vacío `dashboard-badge-lab08`, sin README, licencia ni .gitignore automáticos. Desde la carpeta extraída:
-
-```powershell
-git init
-git add .
-git commit -m "Implementa dashboard y Badge del laboratorio 08"
-git branch -M main
-git remote add origin https://github.com/alexandergdlc/dashboard-badge-lab08.git
-git push -u origin main
-```
-
-Si origin ya existe, corregirlo con:
-
-```powershell
-git remote set-url origin https://github.com/alexandergdlc/dashboard-badge-lab08.git
-```
-
-En otra computadora, después de publicarlo:
-
-```powershell
-git clone https://github.com/alexandergdlc/dashboard-badge-lab08.git
-cd dashboard-badge-lab08
 npm ci
 npm run dev
 ```
